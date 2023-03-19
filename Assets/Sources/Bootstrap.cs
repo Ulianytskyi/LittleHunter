@@ -21,5 +21,10 @@ namespace Sources
             _gameSystems.Execute();
             
         }
+
+        private void OnApplicationQuit()
+        {
+            _gameSystems.TearDown();
+        }
     }
 }

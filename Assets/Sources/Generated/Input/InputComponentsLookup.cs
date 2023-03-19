@@ -8,15 +8,18 @@
 //------------------------------------------------------------------------------
 public static class InputComponentsLookup {
 
+    public const int SourcesComponentsLookInput = 0;
+    public const int SourcesComponentsMoveInputComponents = 1;
 
-
-    public const int TotalComponents = 0;
+    public const int TotalComponents = 2;
 
     public static readonly string[] componentNames = {
-
+        "SourcesComponentsLookInput",
+        "SourcesComponentsMoveInputComponents"
     };
 
     public static readonly System.Type[] componentTypes = {
-
+        typeof(Sources.Components.LookInputComponent),
+        typeof(Sources.Components.MoveInputComponents)
     };
 }
