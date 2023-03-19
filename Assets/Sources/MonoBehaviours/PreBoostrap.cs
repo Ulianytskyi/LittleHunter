@@ -10,7 +10,7 @@ namespace Sources.MonoBehaviours
 
         private void Awake()
         {
-            
+            BootstrapStart();
         }
 
         private void BootstrapStart()

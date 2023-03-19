@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bootstrap.unity
     guid: 9e91f90d20b254faba92778a256e2f4f
+  - enabled: 1
+    path: Assets/Scenes/Launcher.unity
+    guid: 6295a147b70f9426eb44d07a55275477
+  - enabled: 1
+    path: Assets/Scenes/Sandbox.unity
+    guid: b28cf60574efe4261af5d2fe20fb7430
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cc73f25a1fbd046948cd29c718c31506, type: 2}

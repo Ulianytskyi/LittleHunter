@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Sources.Data
 {
@@ -11,7 +12,7 @@ namespace Sources.Data
         public int buildNumber;
 
         [Header("Multiplayer Settings"), Space(2f)]
-        public NetworkPreset networkConfig;
+        public NetworkPreset NetworkConfig;
         
         [Serializable]
         public class NetworkPreset

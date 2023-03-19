@@ -10,10 +10,10 @@ namespace Sources.MonoBehaviours
 {
     public class SplashScene : MonoBehaviour
     {
-        [SerializeField] private GameObject bootsrapGameObject;
+        [SerializeField] private GameObject bootstrapGameObject;
         [SerializeField] private Image logoImage;
 
-        private readonly Stopwatch _stopWatch = new Stopwatch();
+        private Stopwatch _stopWatch = new Stopwatch();
         private bool _isLoading;
 
         private void Awake()
@@ -26,7 +26,7 @@ namespace Sources.MonoBehaviours
             logoImage.DOFade(1f, 1f).OnComplete(delegate
             {
                 _stopWatch.Start();
-                bootsrapGameObject.SetActive(true);
+                bootstrapGameObject.SetActive(true);
                 _stopWatch.Stop();
                 float delay = Mathf.Max(0f, Mathf.Min(2f - _stopWatch.ElapsedMilliseconds, 2f));
                 logoImage.DOFade(0f, 1f).SetDelay(delay).OnComplete(OnLogoImageFadeOut);

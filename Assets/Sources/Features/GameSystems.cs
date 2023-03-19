@@ -7,7 +7,7 @@ namespace Sources.Features
     {
         public GameSystems(Contexts contexts)
         {
-            Add(new CreateEntitySystem(contexts));
+            //Add(new CreateEntitySystem(contexts));
             Add((new EmitInputSystem(contexts, new UnityInputServiceImplementation())));
         }
     }

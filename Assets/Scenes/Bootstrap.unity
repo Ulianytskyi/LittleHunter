@@ -194,7 +194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228630182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -15.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -224,8 +224,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 50
+  near clip plane: 3
+  far clip plane: 10
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -380,7 +380,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 228630184}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 10
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -512,5 +512,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb0263daad5f3429d9fb6a4c8c625d9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bootsrapGameObject: {fileID: 49557723}
+  bootstrapGameObject: {fileID: 49557723}
   logoImage: {fileID: 2113124702}

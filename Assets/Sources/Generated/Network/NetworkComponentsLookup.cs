@@ -8,15 +8,21 @@
 //------------------------------------------------------------------------------
 public static class NetworkComponentsLookup {
 
+    public const int SourcesComponentsNetworkLauncherConnectionSuccessful = 0;
+    public const int SourcesComponentsNetworkLauncherPendingConnection = 1;
+    public const int SourcesComponentsNetworkLauncherShouldConnect = 2;
 
-
-    public const int TotalComponents = 0;
+    public const int TotalComponents = 3;
 
     public static readonly string[] componentNames = {
-
+        "SourcesComponentsNetworkLauncherConnectionSuccessful",
+        "SourcesComponentsNetworkLauncherPendingConnection",
+        "SourcesComponentsNetworkLauncherShouldConnect"
     };
 
     public static readonly System.Type[] componentTypes = {
-
+        typeof(Sources.Components.Network.Launcher.ConnectionSuccessfulComponent),
+        typeof(Sources.Components.Network.Launcher.PendingConnectionComponent),
+        typeof(Sources.Components.Network.Launcher.ShouldConnectComponent)
     };
 }
