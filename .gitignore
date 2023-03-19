@@ -10,6 +10,20 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+# OS
+Thumbs.db
+.DS_Store
+
+# IDEs
+**/bin/Debug
+**/bin/Release
+**/packages
+*.userprefs
+*.user
+test-results
+DerivedData
+xcuserdata
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -50,6 +64,11 @@ ExportedObj/
 
 # Unity3D generated file on crash reports
 sysinfo.txt
+
+# Entitas
+Jenny.zip
+Jenny.zip.meta
+*.userproperties
 
 # Builds
 *.apk
