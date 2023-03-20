@@ -2,56 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90e79ff0-efd9-4f43-8166-9f75dac41b69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Launcher.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Launcher.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/ConnectionSuccessfulComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/ConnectionSuccessfulComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/PendingConnectionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/PendingConnectionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/PlayerNameComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/PlayerNameComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/ShouldConnectComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/ShouldConnectComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsNetworkLauncherPlayerNameComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsNetworkLauncherPlayerNameComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/Components/NetworkSourcesComponentsNetworkLauncherConnectionSuccessfulComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/Components/NetworkSourcesComponentsNetworkLauncherConnectionSuccessfulComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/Components/NetworkSourcesComponentsNetworkLauncherPendingConnectionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/Components/NetworkSourcesComponentsNetworkLauncherPendingConnectionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/Components/NetworkSourcesComponentsNetworkLauncherShouldConnectComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/Components/NetworkSourcesComponentsNetworkLauncherShouldConnectComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/LauncherSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/LauncherSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/ConnectionSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/ConnectionSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/ConnectionUISystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/ConnectionUISystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/InitializePlayerNameSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/InitializePlayerNameSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/InitializeStartButtonSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/InitializeStartButtonSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/LoadingLobbySystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Launcher/LoadingLobbySystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Player.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Player.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/GameViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/GameViewComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/LocalPlayerComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/LocalPlayerComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/PhotonViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/PhotonViewComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/PhysicViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/PhysicViewComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/SpawnPointComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Components/Game/SpawnPointComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGameGameViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGameGameViewComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGameLocalPlayerComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGameLocalPlayerComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGamePhotonViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGamePhotonViewComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGamePhysicViewComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGamePhysicViewComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGameSpawnPointComponenctComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/Components/GameSourcesComponentsGameSpawnPointComponenctComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/SandboxSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/SandboxSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/Utilities/RigidbodyDeactivator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/Utilities/RigidbodyDeactivator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Game.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Game/CreateLocalPlayerSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Game/CreateLocalPlayerSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Game/CreateSpawnPointSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sources/Systems/Game/CreateSpawnPointSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Data/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Data/Animators/Humanoid.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Data/Animators/Humanoid.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Fall.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Fall.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Idle.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Idle.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Jump.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Jump.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Run.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Run.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Sprint.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Sprint.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Strafe.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Strafe.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Talk.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Talk.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Walk.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/AnimationControllers/BasicMotions@Walk.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Idles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Idles/BasicMotions@Idle01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Idles/BasicMotions@Idle01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Idles/BasicMotions@Idle02.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Idles/BasicMotions@Idle02.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Fall01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Fall01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Jump01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Jump01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Run01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Run01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Sprint01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Sprint01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Strafe01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Strafe01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Walk01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Movement/BasicMotions@Walk01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Social.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Social/Conversation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Social/Conversation/BasicMotions@Talk01.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Animations/Social/Conversation/BasicMotions@Talk01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Basic Motions - Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Basic Motions - Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/BasicMotionsDummyModel.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/BasicMotionsDummyModel.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Materials/BasicMotionsFloor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Materials/BasicMotionsFloor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Materials/BasicMotionsMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Materials/BasicMotionsMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Prefabs/BasicMotionsDummy.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Prefabs/BasicMotionsDummy.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Textures/BasicMotionsTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_LH/Models/Characters/Man/Textures/BasicMotionsTexture.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LittleHunter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LittleHunter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Bootstrap.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/EmptyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EmptyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sources/Data/GameSettingsData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Data/GameSettingsData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Features/GameSystems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Features/GameSystems.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sources/Generated/Game/GameComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Game/GameComponentsLookup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/Generated/Network/NetworkComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/Generated/Network/NetworkComponentsLookup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/Bootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/PreBoostrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/PreBoostrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/SplashScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sources/MonoBehaviours/SplashScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_LH/Fonts/AmaticSC-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_LH/Fonts/AmaticSC-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_LH/Fonts/AmaticSC-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_LH/Fonts/AmaticSC-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_LH/Fonts/Azuki Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_LH/Fonts/Azuki Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_LH/Data/Settings/DefaultGameSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_LH/Data/Settings/DefaultGameSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +110,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/Components/Game/GameViewComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/Components/Game/LocalPlayerComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Components/LookInputComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Components/Network/Launcher/PlayerNameComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Components/Settings/GameSettingsComponent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +119,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Sources/ExtensionMethods/GraphicExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Generated/Input/InputComponentsLookup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/MonoBehaviours/LauncherSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/MonoBehaviours/SandboxSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sources/Systems/Game/CreateSpawnPointSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Systems/Launcher/ConnectionSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Systems/Launcher/ConnectionUISystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sources/Systems/Launcher/InitializePlayerNameSystem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -159,6 +213,7 @@
       <workItem from="1679217820795" duration="4320000" />
       <workItem from="1679224986257" duration="3617000" />
       <workItem from="1679238637415" duration="12067000" />
+      <workItem from="1679309378158" duration="3228000" />
     </task>
     <servers />
   </component>

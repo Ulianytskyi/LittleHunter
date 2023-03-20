@@ -15,5 +15,7 @@ MonoBehaviour:
   gameVersion: 1.0.0
   buildNumber: 1
   NetworkConfig:
-    maxNumberOfPlayers: 4
+    maxNumberOfPlayers: 2
     roomSceneName: Sandbox
+  playerConfig:
+    playerPrefab: {fileID: 5923320343733217691, guid: 0761421c3b42045c18facdff6b38b78d, type: 3}

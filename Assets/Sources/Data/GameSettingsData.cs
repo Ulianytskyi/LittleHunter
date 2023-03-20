@@ -13,12 +13,21 @@ namespace Sources.Data
 
         [Header("Multiplayer Settings"), Space(2f)]
         public NetworkPreset NetworkConfig;
+
+        [Header("Player Settings"), Space(2f)]
+        public PlayerSettings playerConfig;
         
         [Serializable]
         public class NetworkPreset
         {
             public int maxNumberOfPlayers;
             public string roomSceneName;
+        }
+        [Serializable]
+        public class PlayerSettings
+        {
+            public GameObject playerPrefab;
+            
         }
     }
 }
