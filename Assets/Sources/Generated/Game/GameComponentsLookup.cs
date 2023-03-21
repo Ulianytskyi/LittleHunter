@@ -10,18 +10,22 @@ public static class GameComponentsLookup {
 
     public const int SourcesComponentsGameGameView = 0;
     public const int SourcesComponentsGameLocalPlayer = 1;
-    public const int SourcesComponentsGamePhotonView = 2;
-    public const int SourcesComponentsGamePhysicView = 3;
-    public const int SourcesComponentsGameSpawnPointComponenct = 4;
-    public const int SourcesComponentsNetworkLauncherPlayerName = 5;
+    public const int SourcesComponentsGameMovementSpeed = 2;
+    public const int SourcesComponentsGamePhotonView = 3;
+    public const int SourcesComponentsGamePhysicView = 4;
+    public const int SourcesComponentsGameRotationSpeed = 5;
+    public const int SourcesComponentsGameSpawnPointComponenct = 6;
+    public const int SourcesComponentsNetworkLauncherPlayerName = 7;
 
-    public const int TotalComponents = 6;
+    public const int TotalComponents = 8;
 
     public static readonly string[] componentNames = {
         "SourcesComponentsGameGameView",
         "SourcesComponentsGameLocalPlayer",
+        "SourcesComponentsGameMovementSpeed",
         "SourcesComponentsGamePhotonView",
         "SourcesComponentsGamePhysicView",
+        "SourcesComponentsGameRotationSpeed",
         "SourcesComponentsGameSpawnPointComponenct",
         "SourcesComponentsNetworkLauncherPlayerName"
     };
@@ -29,8 +33,10 @@ public static class GameComponentsLookup {
     public static readonly System.Type[] componentTypes = {
         typeof(Sources.Components.Game.GameViewComponent),
         typeof(Sources.Components.Game.LocalPlayerComponent),
+        typeof(Sources.Components.Game.MovementSpeedComponent),
         typeof(Sources.Components.Game.PhotonViewComponent),
         typeof(Sources.Components.Game.PhysicViewComponent),
+        typeof(Sources.Components.Game.RotationSpeedComponent),
         typeof(Sources.Components.Game.SpawnPointComponenct),
         typeof(Sources.Components.Network.Launcher.PlayerNameComponent)
     };

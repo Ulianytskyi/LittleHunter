@@ -31,6 +31,10 @@ namespace Sources.Systems.Game
             GameEntity localPlayer = _gameContext.sourcesComponentsGameLocalPlayerEntity;
             localPlayer.AddSourcesComponentsGameGameView(playerView, playerView.transform);
             localPlayer.AddSourcesComponentsGamePhysicView(playerView.GetComponent<Rigidbody>());
+            
+            localPlayer.AddSourcesComponentsGameMovementSpeed(_settignsContext.sourcesComponentsSettingsGameSettings.value.playerConfig.movementSpeed);
+            localPlayer.AddSourcesComponentsGameRotationSpeed(_settignsContext.sourcesComponentsSettingsGameSettings.value.playerConfig.rotationSpeed);
+            
             localPlayer.AddSourcesComponentsGamePhotonView(playerView.GetComponent<Photon.Pun.PhotonView>());
         }
     }

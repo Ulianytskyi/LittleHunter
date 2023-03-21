@@ -7,6 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 public sealed partial class InputContext : Entitas.Context<InputEntity> {
+    public object sourcesComponentsMoveInput;
 
     public InputContext()
         : base(

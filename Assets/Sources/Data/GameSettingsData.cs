@@ -27,7 +27,10 @@ namespace Sources.Data
         public class PlayerSettings
         {
             public GameObject playerPrefab;
+            public float movementSpeed;
+            public float rotationSpeed;
             
+
         }
     }
 }
